@@ -1,0 +1,161 @@
+body {
+  padding: 0px;
+  width: 400px;
+  background-color: #fff;
+  font-size: 14px;
+}
+
+.tabs {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.tab {
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #fff;
+  color: #333;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  font-size: 14px;
+}
+
+.tab.active {
+  background-color: #337ab7;
+  color: white;
+}
+#settings-tab{padding-right: 00px;}
+
+.tab-content {
+  display: none;
+  padding: 0px;
+  padding-right: 20px;
+  background-color: #fff;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0px;
+}
+
+th,
+td {
+  padding: 8px;
+}
+
+th {
+  background-color: #fff;
+}
+
+.menu-item {
+  cursor: move;
+}
+.menu-item td{
+  background-color: #fafafa;
+
+}
+
+.menu-item:hover {
+  background-color: #f2f2f2;
+}
+
+.delete-btn {
+  color: #f44336;
+  cursor: pointer;
+}
+
+#menu-table tr {  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;}
+
+.add-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.help-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 12px;
+  background-color: #337ab7;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#menu td {
+  position: relative;
+  padding-left: 0px;
+  padding: 0;
+}
+
+#menu td a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.3s;
+}
+
+#menu td a:hover {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.menu-editor {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fafafa;
+  border-radius: 4px;
+}
+
+
+.menu-editor h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.menu-editor table {
+  margin-bottom: 10px;
+}
+
+.menu-editor th,
+.menu-editor td {
+  padding: 8px;
+  border: none;
+}
+
+.menu-editor .menu-item {
+  cursor: move;
+}
+
+.menu-editor .menu-item:hover {
+  background-color: #f9f9f9;
+}
+
+.menu-editor .delete-btn {
+  color: #f44336;
+  cursor: pointer;
+}
+
+.icon{
+  /* font-size: large; */
+  padding-left:20px;
+}
+h4{margin:auto}

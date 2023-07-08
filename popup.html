@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Custom Menu</title>
+  <link rel="stylesheet" href="popup.css">
+
+</head>
+<body>
+  <div class="tabs">
+    <div class="tab active" data-tab="menu-tab">Menu</div>
+    <div class="tab" data-tab="settings-tab">Options</div>
+  </div>
+  
+  <div class="tabs-content">
+    <div id="menu-tab" class="tab-content active">
+      <table id="menu">
+        <tbody>
+          <!-- menu goes here -->
+        </tbody>
+      </table>
+    </div>
+    <div id="settings-tab" class="tab-content">
+      <h4>Menu Editor</h4>
+      <table id="menu-table">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>URL</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- <tr class="menu-item">
+            <td contenteditable="true">Menu Item 1</td>
+            <td contenteditable="true">http://example.com</td>
+            <td>
+              <span class="delete-btn">Delete</span>
+            </td>
+          </tr> -->
+        </tbody>
+      </table>
+      <button id="add-btn" class="add-btn">Add Menu Item</button>&nbsp;
+      <button id="help-btn" class="help-btn">Help Info</button>&nbsp;
+      <button id="reset-btn" class="help-btn">Restore Defaults</button>
+    </div>
+  </div>
+  <script src="Sortable.min.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
